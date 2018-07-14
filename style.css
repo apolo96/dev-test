@@ -10,3 +10,86 @@
 .lading-content {
     height: 100vh;
 }  
+.lading-content-p2 {
+    height: 100vh;
+}    
+
+.hs
+{
+	height: 25vh;
+}
+.hm
+{
+	height: 50vh;
+}
+
+.hx
+{
+	height: 100vh;
+}
+
+@media (max-width: 576px) 
+{
+	.hs
+	{
+		height:auto;
+	}
+	.hm
+	{
+		height:auto;
+	}
+	.hx
+	{
+		height:auto;
+	}
+	.lading-content
+	{
+		height:auto;
+		margin-bottom:5%;
+	}
+	.card{ margin-bottom: 5%;}
+}
+
+@media (max-width: 768px)
+{
+	.hs
+	{
+		height:auto;
+	}
+	.hm
+	{
+		height:auto;
+	}
+	.hx
+	{
+		height:auto;
+	}
+	.lading-content
+	{
+		height:auto;
+		margin-bottom:5%;
+	}
+	.card{ margin-bottom: 5%;}
+}
+
+@media (max-width: 992px) 
+{
+.hs
+	{
+		height:auto;
+	}
+	.hm
+	{
+		height:auto;
+	}
+	.hx
+	{
+		height:auto;
+	}
+	.lading-content
+	{
+		height:auto;
+		margin-bottom:5%;
+	}
+	.card{ margin-bottom: 5%;}
+}
