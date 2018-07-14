@@ -1,3 +1,8 @@
+body
+{
+    color: white;
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -12,7 +17,71 @@
 }  
 .lading-content-p2 {
     height: 100vh;
-}    
+    background-color: #5e2697;
+} 
+
+.bg-one
+{
+    background-color: #512182;
+}
+
+.bg-two
+{
+    background-color: #431b6c;
+}
+
+.card
+{
+    border: none;
+    border-radius: 0px;
+}
+
+.card-title {
+    margin-bottom:2%;
+    margin-top:2%;
+    color:#9197a8;
+}
+
+.btn-land
+{
+    background-color: #512182;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    border-top: 2px solid #6e2daf;
+    box-shadow: 0 0 2px #4a1e76, 0 0 2px #4a1e76;
+}
+
+.btn-land-color{
+    background-color: #431b6c;
+}
+
+.btn-bar
+{
+    background-color: white;
+    color: #431b6c;
+    padding: 5px 65px 5px 65px;
+}
+.btn-bar-two
+{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 45px 5px 45px;
+}
+
+.card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius:0; 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    margin-left: 30px;
+}
+
+.form-inline {
+    padding: 15px;
+}
 
 .hs
 {
@@ -44,10 +113,17 @@
 	}
 	.lading-content
 	{
-		height:auto;
-		margin-bottom:5%;
+        height:auto;
+        padding: 15px 5px 0px 5px;
 	}
-	.card{ margin-bottom: 5%;}
+    .card{ margin-bottom: 5%;}
+    
+    .btn-bar
+    {
+        margin-bottom: .5rem;
+    }
+
+
 }
 
 @media (max-width: 768px)
@@ -66,8 +142,8 @@
 	}
 	.lading-content
 	{
-		height:auto;
-		margin-bottom:5%;
+        height:auto;
+        padding: 15px 5px 0px 5px;
 	}
 	.card{ margin-bottom: 5%;}
 }
@@ -88,8 +164,9 @@
 	}
 	.lading-content
 	{
-		height:auto;
-		margin-bottom:5%;
+        height:auto;
+        padding: 15px 5px 0px 5px;
 	}
 	.card{ margin-bottom: 5%;}
 }
+
