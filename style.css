@@ -75,6 +75,15 @@ body
     border-top-right-radius:0; 
 }
 
+.box-etxt{
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.carousel-indicators .active {
+    background-color: #512182;
+}
 .navbar-dark .navbar-nav .nav-link {
     margin-left: 30px;
 }
@@ -122,8 +131,10 @@ body
     {
         margin-bottom: .5rem;
     }
-
-
+    .box-etxt{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media (max-width: 768px)
@@ -145,7 +156,12 @@ body
         height:auto;
         padding: 15px 5px 0px 5px;
 	}
-	.card{ margin-bottom: 5%;}
+    .card{ margin-bottom: 5%;}
+
+    .box-etxt{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media (max-width: 992px) 
@@ -167,6 +183,11 @@ body
         height:auto;
         padding: 15px 5px 0px 5px;
 	}
-	.card{ margin-bottom: 5%;}
+    .card{ margin-bottom: 5%;}
+    
+    .box-etxt{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
