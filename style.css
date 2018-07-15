@@ -1,6 +1,7 @@
 body
 {
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .carousel-item {
@@ -45,6 +46,7 @@ body
 .btn-land
 {
     background-color: #512182;
+    font-weight: bold;
     padding: 20px;
     border-radius: 5px;
     color: white;
