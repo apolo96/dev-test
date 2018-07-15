@@ -16,7 +16,7 @@
       rel="stylesheet">
     <link 
         rel="stylesheet"
-        href="style.css">
+        href="css/style.css">
     <title>DevTest</title>
 </head>
 
@@ -32,27 +32,27 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Page 1</a>
+                <a class="nav-link" href="#pageone">Page 1</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Page 2</a>
+                <a class="nav-link" href="#pagetwo">Page 2</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pag 3</a>
+                <a class="nav-link" href="#pagethree">Pag 3</a>
               </li>             
             </ul>
             <form class="form-inline">
-              <button class="btn btn-bar ml-2 mr-3" type="button">Top</button>
-              <button class="btn btn-bar-two" type="button">Bottom</button>
+              <button class="btn btn-bar btn-go-to ml-2 mr-3" href="#pagetop" type="button">Top</button>
+              <button class="btn btn-bar-two btn-go-to" href="#pagebottom" type="button">Bottom</button>
             </form>
           </div>
         </div>
       </nav>
       
-      <header>
+      <header id="pagetop">
         <div id="carousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-indicators mb-4">
-            <button class="btn btn-land">Go To Bottom</button> 
+            <button class="btn btn-land btn-go-to" href="#pagebottom">Go To Bottom</button> 
           </div>
           <div id="carousel-content" class="carousel-inner" role="listbox">
           <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -67,7 +67,7 @@
       </header>
 
     <!-- Page Content -->
-    <section class="lading-content-p2">
+    <section id="pageone" class="lading-content-p2">
         <div class="container h-100">
           <div class="row h-75 justify-content-center align-items-center">
             <div class="col-12 text-center">
@@ -77,13 +77,13 @@
           </div>
           <div class="row h-25 justify-content-center align-items-center">
             <div class="col-12 text-center my-5">
-              <button class="btn btn-land">Go To Bottom</button>  
+              <button class="btn btn-land btn-go-to" href="#pagebottom">Go To Bottom</button>  
             </div>				
           </div>
         </div>
     </section>
 
-    <section class="lading-content bg-one">
+    <section id="pagetwo" class="lading-content bg-one">
             <div class="container h-100">
               <div class="row hs">
                 <div class="col align-self-center text-center">
@@ -128,13 +128,13 @@
               </div>
               <div class="row hs">
                 <div class="col align-self-center text-center my-5">
-                  <button class="btn btn-land btn-land-color">Go To Bottom</button> 
+                  <button class="btn btn-land btn-land-color btn-go-to" href="#pagebottom">Go To Bottom</button> 
                 </div>
               </div>
             </div>
     </section>
 
-    <section class="lading-content bg-two">
+    <section id="pagethree" class="lading-content bg-two">
             <div class="container h-100">
               <div class="row hs">
                 <div class="col align-self-center text-center">
@@ -169,13 +169,13 @@
               </div>
               <div class="row hs">
                 <div class="col align-self-center text-center my-5">
-                  <button class="btn btn-land ">Go To Bottom</button> 
+                  <button class="btn btn-land btn-go-to" href="#pagebottom">Go To Bottom</button> 
                 </div>
               </div>
             </div>
     </section>
 
-    <section class="lading-content-p2">
+    <section id="pagebottom" class="lading-content-p2">
             <div class="container h-100">
               <div class="row h-75 justify-content-center align-items-center">
                 <div class="col-12 text-center">
@@ -184,7 +184,7 @@
               </div>
               <div class="row h-25 justify-content-center align-items-center">
                 <div class="col-12 text-center">
-                  <button class="btn btn-land">Go To Header</button>  
+                  <button class="btn btn-land btn-go-to" href="#pagetop">Go To Header</button>  
                 </div>				
               </div> 
             </div>
@@ -207,7 +207,8 @@
         src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/goToSection.js"></script>
 </body>
 
 </html>
